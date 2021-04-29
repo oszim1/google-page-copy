@@ -1,0 +1,90 @@
+body {
+  font-family: arial, sans-serif;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  background-color: #ccc;
+  margin-top: 320px;
+  box-sizing: border-box;
+}
+.main-header {
+  width: 98%;
+  height: 50px;
+  margin: auto;
+  overflow: hidden;
+}
+.main-menu ul {
+  list-style-type: none;
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.header-main {
+  text-align: center;
+  margin-top: 208px;
+}
+.google-research {
+  text-align: center;
+  margin-top: 20px;
+  height: 120px;
+}
+.search-form {
+  width: 600px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #ccc;
+}
+.google-research input {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.search-btn {
+  float: left;
+  position: relative;
+  left: 40%;
+  border: none;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: border 0.2s;
+}
+.lucky-btn {
+  float: right;
+  position: relative;
+  right: 40%;
+  border: 1px solid transparent;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: border 0.2s;
+}
+.search-btn:hover, .lucky-btn:hover {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} 
+.offer {
+  text-align: center;
+  margin-top: 30px;
+}
+.footer-menu-1 ul, .footer-menu-2 ul {
+  display: inline;
+}
+.footer-menu-1 ul li {
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+.footer-menu-2 ul li {
+  display: inline-block;
+  letter-spacing: 1.5px;
+}
+.footer-span-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer-menu-section {
+ text-align: left;
+}
